@@ -1,0 +1,30 @@
+baseURL = "https://uncomputable.github.io/nayami/"
+languageCode = "ja"
+title = "若きガイジンの悩み"
+defaultContentLanguage = "ja"
+theme = "archie"
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://gitlab.com/uncomputable/"
+
+[[menu.main]]
+name = "ホーム"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "すべての投稿"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "私について"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "タグ"
+url = "/tags"
+weight = 4
