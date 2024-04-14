@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ if isset .Data "Term" }}
-<h1>タグされた投稿 - "{{ .Data.Term }}"</h1>
+<h1>「{{ .Data.Term }}」がついている投稿</h1>
 {{ else }}
 <h1 class="page-title">すべての投稿</h1>
 {{ end }}
