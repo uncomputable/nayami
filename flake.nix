@@ -21,6 +21,7 @@
         default = pkgs.mkShell {
           buildInputs = [
             pkgs.hugo
+            pkgs.just
           ];
         };
       };
