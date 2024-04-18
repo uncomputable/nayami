@@ -21,7 +21,7 @@ jobs:
 
     - name: Build website
       run: |
-        nix develop .# --command bash -c "hugo"
+        nix develop .# --command bash -c "just deploy"
 
     - name: Deploy to GitHub pages
       uses: JamesIves/github-pages-deploy-action@v4
