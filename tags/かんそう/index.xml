@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>若きガイジンの悩み</title>
-    <link>https://uncomputable.github.io/nayami/</link>
-    <description>Recent content on 若きガイジンの悩み</description>
+    <title>かんそう on 若きガイジンの悩み</title>
+    <link>https://uncomputable.github.io/nayami/tags/%E3%81%8B%E3%82%93%E3%81%9D%E3%81%86/</link>
+    <description>Recent content in かんそう on 若きガイジンの悩み</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 18 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://uncomputable.github.io/nayami/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://uncomputable.github.io/nayami/tags/%E3%81%8B%E3%82%93%E3%81%9D%E3%81%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>名前が読めなければ、人の存在がぼんやりしてくる</title>
       <link>https://uncomputable.github.io/nayami/posts/hito_no_namae/</link>
@@ -26,21 +26,6 @@
 はっきりとした文章 人の名前をカナで書くと、読み方に苦しむことなく文章が味わえる。
 カナモジ専用論を唱えた人としては、さきにふれたアライ・ハクセキや、カモノ・マブチ、マエジマ・ヒソカ、フクザワ・ユキチなどがあるが、運動団体としては1983年（明治16年）に、オオツク・フミヒコ、ミヤケ・ヨネキチ、ヒダ・ハマゴロウ、コニシ・ノブハチらの努力でできた「かなのくわい」が最初のものであった。
 各名前は印象的で、覚えやすい。読んだ名前と、前に聞いた名前を照らし合わせることで、情報がつなげて、その人の存在がはっきりしてくる。読み手も書き手も苦労しないで、述べた人も損はしない。なぜなら、カナの各文字に意味がなくても、カナをつないだ文字に意味があって、名前の味わいがカナの上でも伝わる。</description>
-    </item>
-    <item>
-      <title>私について</title>
-      <link>https://uncomputable.github.io/nayami/about/</link>
-      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://uncomputable.github.io/nayami/about/</guid>
-      <description>こんにちは。このブログを通して、いろいろ話したいと思います。よもやま話で、目的がとくにない。よろしくお願いします。</description>
-    </item>
-    <item>
-      <title>カナタイプ</title>
-      <link>https://uncomputable.github.io/nayami/posts/kanataipu/</link>
-      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://uncomputable.github.io/nayami/posts/kanataipu/</guid>
-      <description>ソノ　トキ　イッショ　ニ　ノッテ　ヰタ　セイヨウジン　ガ　フト　カバン　ノ　ナカ　カラ　タイプライター　ヲ　トリダシテ　パチパチ　ト　ウチダシタ。ソノ　ハヤイ　コト　ミルマ　ニ　キレイ　ナ　ハッキリ　シタ　２ページ　ノ　カキモノ　ト
-ひらお・ぜんじ</description>
     </item>
   </channel>
 </rss>

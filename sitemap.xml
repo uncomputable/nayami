@@ -2,22 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://uncomputable.github.io/nayami/posts/</loc>
+    <lastmod>2024-04-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uncomputable.github.io/nayami/tags/</loc>
+    <lastmod>2024-04-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uncomputable.github.io/nayami/tags/%E3%82%AB%E3%83%8A/</loc>
+    <lastmod>2024-04-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uncomputable.github.io/nayami/tags/%E3%81%8B%E3%82%93%E3%81%9D%E3%81%86/</loc>
+    <lastmod>2024-04-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uncomputable.github.io/nayami/</loc>
+    <lastmod>2024-04-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uncomputable.github.io/nayami/posts/hito_no_namae/</loc>
+    <lastmod>2024-04-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://uncomputable.github.io/nayami/about/</loc>
     <lastmod>2024-04-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://uncomputable.github.io/nayami/posts/</loc>
-    <lastmod>2024-04-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://uncomputable.github.io/nayami/tags/</loc>
-    <lastmod>2024-04-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://uncomputable.github.io/nayami/tags/%E3%82%AB%E3%83%8A/</loc>
-    <lastmod>2024-04-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://uncomputable.github.io/nayami/posts/kanataipu/</loc>
-    <lastmod>2024-04-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://uncomputable.github.io/nayami/</loc>
     <lastmod>2024-04-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://uncomputable.github.io/nayami/categories/</loc>
