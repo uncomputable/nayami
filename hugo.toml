@@ -3,6 +3,10 @@ languageCode = "ja"
 title = "若きガイジンの悩み"
 defaultContentLanguage = "ja"
 theme = "archie"
+copyright = "uncomputable"
+
+[params]
+useCDN = false
 
 [[params.social]]
 name = "GitHub"
