@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 若きガイジンの悩み</title>
-    <link>https://uncomputable.github.io/nayami/tags/</link>
+    <link>https://nayami.org/tags/</link>
     <description>Recent content in Tags on 若きガイジンの悩み</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 18 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://uncomputable.github.io/nayami/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nayami.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>カナ</title>
-      <link>https://uncomputable.github.io/nayami/tags/%E3%82%AB%E3%83%8A/</link>
+      <link>https://nayami.org/tags/%E3%82%AB%E3%83%8A/</link>
       <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://uncomputable.github.io/nayami/tags/%E3%82%AB%E3%83%8A/</guid>
+      <guid>https://nayami.org/tags/%E3%82%AB%E3%83%8A/</guid>
       <description></description>
     </item>
     <item>
       <title>かんそう</title>
-      <link>https://uncomputable.github.io/nayami/tags/%E3%81%8B%E3%82%93%E3%81%9D%E3%81%86/</link>
+      <link>https://nayami.org/tags/%E3%81%8B%E3%82%93%E3%81%9D%E3%81%86/</link>
       <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://uncomputable.github.io/nayami/tags/%E3%81%8B%E3%82%93%E3%81%9D%E3%81%86/</guid>
+      <guid>https://nayami.org/tags/%E3%81%8B%E3%82%93%E3%81%9D%E3%81%86/</guid>
       <description></description>
     </item>
   </channel>

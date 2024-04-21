@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>若きガイジンの悩み</title>
-    <link>https://uncomputable.github.io/nayami/</link>
+    <link>https://nayami.org/</link>
     <description>Recent content on 若きガイジンの悩み</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 18 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://uncomputable.github.io/nayami/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nayami.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>名前が読めなければ、人の存在がぼんやりしてくる</title>
-      <link>https://uncomputable.github.io/nayami/posts/hito_no_namae/</link>
+      <link>https://nayami.org/posts/hito_no_namae/</link>
       <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://uncomputable.github.io/nayami/posts/hito_no_namae/</guid>
+      <guid>https://nayami.org/posts/hito_no_namae/</guid>
       <description>日本語の文章の中で一番読みにくいのはやはり、人の名前だよね。わたしは、今に至るまで、どう読めばいいか迷っている。「魯魚章草」（ろぎょしょうそう）という難読熟語は読めるのに（似ている文字を書き間違えるという意味（笑））、「福沢諭吉」（ふくざわゆきち）という重要人物の名前は読めない。ちなみに、慶応大学に留学したことがある。なさけない。
 ぼんやりとした文章 文章の中で人の名前が出ると、
 カナモジ専用論を唱えた人としては、さきにふれた新井白石や、賀茂真淵、前島密、福沢諭吉などがあるが、運動団体としては1983年（明治16年）に、大槻文彦、三宅米吉、肥田浜五郎、小西信八らの努力でできた「かなのくわい」が最初のものであった。
@@ -29,16 +29,16 @@
     </item>
     <item>
       <title>私について</title>
-      <link>https://uncomputable.github.io/nayami/about/</link>
+      <link>https://nayami.org/about/</link>
       <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://uncomputable.github.io/nayami/about/</guid>
+      <guid>https://nayami.org/about/</guid>
       <description>こんにちは。このブログを通して、いろいろ話したいと思います。よもやま話で、目的がとくにない。よろしくお願いします。</description>
     </item>
     <item>
       <title>カナタイプ</title>
-      <link>https://uncomputable.github.io/nayami/posts/kanataipu/</link>
+      <link>https://nayami.org/posts/kanataipu/</link>
       <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://uncomputable.github.io/nayami/posts/kanataipu/</guid>
+      <guid>https://nayami.org/posts/kanataipu/</guid>
       <description>ソノ　トキ　イッショ　ニ　ノッテ　ヰタ　セイヨウジン　ガ　フト　カバン　ノ　ナカ　カラ　タイプライター　ヲ　トリダシテ　パチパチ　ト　ウチダシタ。ソノ　ハヤイ　コト　ミルマ　ニ　キレイ　ナ　ハッキリ　シタ　２ページ　ノ　カキモノ　ト
 ひらお・ぜんじ</description>
     </item>
