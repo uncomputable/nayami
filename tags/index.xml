@@ -7,20 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>uncomputable</copyright>
-    <lastBuildDate>Thu, 18 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://nayami.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>かんそう</title>
+      <link>https://nayami.org/tags/%E3%81%8B%E3%82%93%E3%81%9D%E3%81%86/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://nayami.org/tags/%E3%81%8B%E3%82%93%E3%81%9D%E3%81%86/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>コトバ</title>
+      <link>https://nayami.org/tags/%E3%82%B3%E3%83%88%E3%83%90/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://nayami.org/tags/%E3%82%B3%E3%83%88%E3%83%90/</guid>
+      <description></description>
+    </item>
     <item>
       <title>カナ</title>
       <link>https://nayami.org/tags/%E3%82%AB%E3%83%8A/</link>
       <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://nayami.org/tags/%E3%82%AB%E3%83%8A/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>かんそう</title>
-      <link>https://nayami.org/tags/%E3%81%8B%E3%82%93%E3%81%9D%E3%81%86/</link>
-      <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://nayami.org/tags/%E3%81%8B%E3%82%93%E3%81%9D%E3%81%86/</guid>
       <description></description>
     </item>
   </channel>
