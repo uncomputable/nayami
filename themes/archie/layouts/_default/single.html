@@ -3,7 +3,7 @@
 	<article>
 		<div class="title">
 			<h1 class="title">{{ .Title }}</h1>
-			<div class="meta">{{ dateFormat "2006-02-01" .Date }}{{ if .Draft }} <span class="draft-label">したがき</span> {{ end }}</div>
+			<div class="meta">{{ dateFormat "2006-01-02" .Date }}{{ if .Draft }} <span class="draft-label">したがき</span> {{ end }}</div>
 		</div>
 		{{ if isset .Params "tldr" }}
 		<div class="tldr">
