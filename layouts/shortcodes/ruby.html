@@ -1,0 +1,5 @@
+<!-- layouts/shortcodes/ruby.html -->
+<ruby>
+  {{ .Inner | safeHTML }}
+  <rp>(</rp><rt>{{ .Get "reading" }}</rt><rp>)</rp>
+</ruby>
