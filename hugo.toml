@@ -11,7 +11,7 @@ useCDN = false
 [[params.social]]
 name = "GitHub"
 icon = "github"
-url = "https://gitlab.com/uncomputable/"
+url = "https://github.com/uncomputable/"
 
 [[menu.main]]
 name = "ホーム"
