@@ -17,6 +17,14 @@ name = "GitHub"
 icon = "github"
 url = "https://github.com/uncomputable/"
 
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "https://nayami.org/index.xml"
+
+[outputs]
+home = ['html', 'rss']
+
 [[menu.main]]
 name = "ホーム"
 url = "/"
