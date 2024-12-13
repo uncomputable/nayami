@@ -3,15 +3,16 @@ body {
   background-color: #202124;
 }
 
+
 ::-moz-selection {
-  background: blue;
-  color: #fff;
+  background: var(--darkMaincolor);
+  color: #000;
   text-shadow: none;
 }
 
 ::selection {
-  background: red;
-  color: #fff;
+  background: var(--darkMaincolor);
+  color: #000;
   text-shadow: none;
 }
 
