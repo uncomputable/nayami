@@ -14,9 +14,6 @@
     <a href="https://github.com/athul/archie">Archieテーマ</a> | <a href="https://gohugo.io">Hugo</a>でつくった
   </div>
 </footer>
-{{ if not .Site.IsServer }}
-{{ template "_internal/google_analytics_async.html" . }}
-{{ end }}
 
 {{- if (isset .Site.Params "social") -}}
 <script>
