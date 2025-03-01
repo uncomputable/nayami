@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>uncomputable</copyright>
-    <lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://nayami.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>お問い合わせ</title>
+      <link>https://nayami.org/contact/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://nayami.org/contact/</guid>
+      <description>&lt;p&gt;投稿の内容についてのご意見や、その他のお問い合わせをぜひお聞かせください。&#xA;下のフォームにご記入し、よろしければ送信ボタンを押してください。&lt;/p&gt;&#xA;&lt;div&gt;&#xA;&lt;form&#xA;  action=&#34;https://formspree.io/f/movjgjow&#34;&#xA;  method=&#34;POST&#34;&#xA;&gt;&#xA;  &lt;div&gt;&#xA;  &lt;label&gt;&#xA;    お名前　　　　&#xA;    &lt;input type=&#34;text&#34; id=&#34;name&#34; name=&#34;name&#34; placeholder=&#34;山田太郎&#34; required&gt;&#xA;  &lt;/label&gt;&#xA;  &lt;/div&gt;&#xA;&#xA;  &lt;div&gt;&#xA;  &lt;label&gt;&#xA;    メールアドレス&#xA;    &lt;input type=&#34;email&#34; name=&#34;email&#34; placeholder=&#34;example@mail.com&#34; required&gt;&#xA;  &lt;/label&gt;&#xA;  &lt;/div&gt;&#xA;&#xA;  &lt;div&gt;&#xA;  &lt;label&gt;&#xA;    メッセージ　　&#xA;    &lt;textarea name=&#34;message&#34; rows=&#34;5&#34; placeholder=&#34;お問い合わせ内容を入力してください&#34; required&gt;&lt;/textarea&gt;&#xA;  &lt;/label&gt;&#xA;  &lt;/div&gt;&#xA;&#xA;  &lt;/div&gt;&#xA;    &lt;button type=&#34;submit&#34;&gt;フォームを送信&lt;/button&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/form&gt;&#xA;&lt;/div&gt;</description>
+    </item>
     <item>
       <title>曖昧な名前の表記</title>
       <link>https://nayami.org/posts/aimai_na_namae/</link>
