@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html><head lang="ja">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>カナ専用の試し - 若きガイジンの悩み</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="ウエブ上のカナ専用文を支えるためのHTML・CSSを作って、ここで試してみたいと思う。" />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="https://nayami.org/posts/kanasenyou/">
+  <meta property="og:site_name" content="若きガイジンの悩み">
+  <meta property="og:title" content="カナ専用の試し">
+  <meta property="og:description" content="ウエブ上のカナ専用文を支えるためのHTML・CSSを作って、ここで試してみたいと思う。">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-20T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-03-20T00:00:00+00:00">
+    <meta property="article:tag" content="カナ">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="カナ専用の試し">
+  <meta name="twitter:description" content="ウエブ上のカナ専用文を支えるためのHTML・CSSを作って、ここで試してみたいと思う。">
+<script src="https://nayami.org/js/feather.min.js"></script>
+	
+	
+        <link href="https://nayami.org/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://nayami.org/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://nayami.org/css/dark.20002a8983fd2f06df9a2881dc5a7a4242a5e490720e1e40ebbbfc3f3c120d8b.css"  disabled />
+	
+
+	
+	
+
+	
+	
+	
+	
+
+
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://nayami.org/">若きガイジンの悩み</a>
+	</div>
+	<nav>
+		
+		<a href="/">ホーム</a>
+		
+		<a href="/posts">すべての投稿</a>
+		
+		<a href="/about">私について</a>
+		
+		<a href="/tags">タグ</a>
+		
+		<a href="/contact">お問い合わせ</a>
+		
+		| <a id="dark-mode-toggle" onclick="toggleTheme()"></a>
+		<script src="https://nayami.org/js/themetoggle.js"></script>
+		
+	</nav>
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">カナ専用の試し</h1>
+			<div class="meta">2025-03-20</div>
+		</div>
+		
+
+		<section class="body">
+			<p>ウエブ上のカナ専用文を支えるためのHTML・CSSを作って、ここで試してみたいと思う。
+文章全体はカナモジで表示される。
+マウスオーバーやクリックをすると、局所的に漢字に戻すことができる。
+TABキーを押すと順を追って、漢字があるところが表示される。
+以上はテキストの操作だ。</p>
+<p>今回の文章は『カナノヒカリ』第11号からの引用だ。
+なぜこういう文章にしたかといえば、読んでいるところだったからにすぎない。
+原文は漢字カナ交じり文として書かれており、別にカナ専用に適した文章というわけではない。
+別に適していない文章だからこそ、カナ専用の支えるHTML・CSSを発揮できる。</p>
+
+<style>
+    .paragraph {
+         
+         
+    }
+
+    .word {
+       
+      display: inline-grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+       
+    }
+
+     
+    .front,
+    .back {
+      grid-area: 1 / 1;
+      text-align: center;
+    }
+
+     
+    .back {
+      visibility: hidden;
+    }
+
+     
+    .word:hover .front,
+    .word:focus .front {
+      visibility: hidden;
+    }
+    .word:hover .back,
+    .word:focus .back {
+      visibility: visible;
+    }
+</style>
+
+
+<h2>
+    『
+    <div class="word" tabindex="0">
+        <span class="front">にっぽんじん</span>
+        <span class="back">日本人</span>
+    </div>
+    と
+    <div class="word" tabindex="0">
+        <span class="front">カナモジ</span>
+        <span class="back">カナ文字</span>
+    </div>
+    』
+</h2>
+<div class="paragraph">
+    <div class="word" tabindex="0">
+        <span class="front">わが</span>
+        <span class="back">我が</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">こくみん</span>
+        <span class="back">国民</span>
+    </div>
+    <span>は</span>
+    <div class="word" tabindex="0">
+        <span class="front">がいこく</span>
+        <span class="back">外国</span>
+    </div>
+    <span>の</span>
+    <div class="word" tabindex="0">
+        <span class="front">ぶんぶつ</span>
+        <span class="back">文物</span>
+    </div>
+    <span>を</span>
+    <div class="word" tabindex="0">
+        <span class="front">とりいれて、</span>
+        <span class="back">取り入れて、</span>
+    </div>
+    <span>これ</span>
+    <span>を</span>
+    <div class="word" tabindex="0">
+        <span class="front">まるのみ</span>
+        <span class="back">丸呑み</span>
+    </div>
+    <span>に</span>
+    <span>する</span>
+    <span>こと</span>
+    <span>は</span>
+    <span>ない。</span>
+    <div class="word" tabindex="0">
+        <span class="front">かならず</span>
+        <span class="back">必ず</span>
+    </div>
+    <span>や</span>
+    <div class="word" tabindex="0">
+        <span class="front">たくみ</span>
+        <span class="back">巧み</span>
+    </div>
+    <span>に</span>
+    <span>それ</span>
+    <span>を</span>
+    <span>こなして</span>
+    <div class="word" tabindex="0">
+        <span class="front">にっぽん-か</span>
+        <span class="back">日本化</span>
+    </div>
+    <span>し、</span>
+    <div class="word" tabindex="0">
+        <span class="front">にっぽん</span>
+        <span class="back">日本</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">とくゆう</span>
+        <span class="back">特有</span>
+    </div>
+    <span>の</span>
+    <div class="word" tabindex="0">
+        <span class="front">ぶんか</span>
+        <span class="back">文化</span>
+    </div>
+    <span>を</span>
+    <div class="word" tabindex="0">
+        <span class="front">つくって</span>
+        <span class="back">作って</span>
+    </div>
+    <span>いる。</span>
+    <span>それ</span>
+    <span>は</span>
+    <div class="word" tabindex="0">
+        <span class="front">すこしく</span>
+        <span class="back">少しく</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">にっぽん</span>
+        <span class="back">日本</span>
+    </div>
+    <span>の</span>
+    <div class="word" tabindex="0">
+        <span class="front">れきし</span>
+        <span class="back">歴史</span>
+    </div>
+    <span>に</span>
+    <div class="word" tabindex="0">
+        <span class="front">ちゅうい</span>
+        <span class="back">注意</span>
+    </div>
+    <span>する</span>
+    <span>もの</span>
+    <div class="word" tabindex="0">
+        <span class="front">しりいる</span>
+        <span class="back">知り居る</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">じじつ</span>
+        <span class="back">事実</span>
+    </div>
+    <span>で</span>
+    <span>ある。</span>
+</div>
+<div class="paragraph">
+    <div class="word" tabindex="0">
+        <span class="front">わが</span>
+        <span class="back">我が</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">くに</span>
+        <span class="back">国</span>
+    </div>
+    <span>は</span>
+    <div class="word" tabindex="0">
+        <span class="front">しな</span>
+        <span class="back">支那</span>
+    </div>
+    <span>より</span>
+    <div class="word" tabindex="0">
+        <span class="front">かんじ</span>
+        <span class="back">漢字</span>
+    </div>
+    <span>を</span>
+    <div class="word" tabindex="0">
+        <span class="front">ゆにゅう</span>
+        <span class="back">輸入</span>
+    </div>
+    <span>して</span>
+    <div class="word" tabindex="0">
+        <span class="front">つかって</span>
+        <span class="back">使って</span>
+    </div>
+    <span>いた</span>
+    <span>が、</span>
+    <div class="word" tabindex="0">
+        <span class="front">すうひゃく</span>
+        <span class="back">数百</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">ねん</span>
+        <span class="back">年</span>
+    </div>
+    <span>の</span>
+    <div class="word" tabindex="0">
+        <span class="front">のち</span>
+        <span class="back">後</span>
+    </div>
+    <span>に</span>
+    <span>は</span>
+    <span>これ</span>
+    <span>を</span>
+    <div class="word" tabindex="0">
+        <span class="front">にっぽん-か</span>
+        <span class="back">日本化</span>
+    </div>
+    <span>して</span>
+    <div class="word" tabindex="0">
+        <span class="front">カナモジ</span>
+        <span class="back">カナ文字</span>
+    </div>
+    <span>を</span>
+    <div class="word" tabindex="0">
+        <span class="front">つくった。</span>
+        <span class="back">作った。</span>
+    </div>
+    <span>これ</span>
+    <span>も</span>
+    <div class="word" tabindex="0">
+        <span class="front">がいこく</span>
+        <span class="back">外国</span>
+    </div>
+    <span>の</span>
+    <span>もの</span>
+    <span>を</span>
+    <div class="word" tabindex="0">
+        <span class="front">たくみ</span>
+        <span class="back">巧み</span>
+    </div>
+    <span>に</span>
+    <div class="word" tabindex="0">
+        <span class="front">にっぽん-か</span>
+        <span class="back">日本化</span>
+    </div>
+    <span>した</span>
+    <div class="word" tabindex="0">
+        <span class="front">じじつ</span>
+        <span class="back">事実</span>
+    </div>
+    <span>で</span>
+    <span>ある。</span>
+</div>
+<div class="paragraph">
+    <div class="word" tabindex="0">
+        <span class="front">ゆらい</span>
+        <span class="back">由来</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">わが</span>
+        <span class="back">我が</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">こくみん</span>
+        <span class="back">国民</span>
+    </div>
+    <span>の</span>
+    <div class="word" tabindex="0">
+        <span class="front">せいじょう</span>
+        <span class="back">性情</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">しゅみ</span>
+        <span class="back">趣味</span>
+    </div>
+    <span>は</span>
+    <div class="word" tabindex="0">
+        <span class="front">たんいつ</span>
+        <span class="back">単一</span>
+    </div>
+    <span>な</span>
+    <div class="word" tabindex="0">
+        <span class="front">たんじゅん</span>
+        <span class="back">単純</span>
+    </div>
+    <span>な</span>
+    <span>もの</span>
+    <span>で</span>
+    <span>ある。</span>
+    <div class="word" tabindex="0">
+        <span class="front">たんじゅん</span>
+        <span class="back">単純</span>
+    </div>
+    <span>で、</span>
+    <span>あっさり</span>
+    <span>と</span>
+    <span>した、</span>
+    <span>まっすぐ</span>
+    <span>な</span>
+    <div class="word" tabindex="0">
+        <span class="front">へいわ</span>
+        <span class="back">平和</span>
+    </div>
+    <span>な</span>
+    <span>の</span>
+    <span>が</span>
+    <div class="word" tabindex="0">
+        <span class="front">にっぽん</span>
+        <span class="back">日本</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">しゅみ</span>
+        <span class="back">趣味</span>
+    </div>
+    <span>で</span>
+    <span>ある</span>
+    <span>と</span>
+    <div class="word" tabindex="0">
+        <span class="front">いって</span>
+        <span class="back">言って</span>
+    </div>
+    <span>よかろう。</span>
+    <span>それ</span>
+    <span>が</span>
+    <div class="word" tabindex="0">
+        <span class="front">わが</span>
+        <span class="back">我が</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">くに</span>
+        <span class="back">国</span>
+    </div>
+    <span>の</span>
+    <div class="word" tabindex="0">
+        <span class="front">けんちく</span>
+        <span class="back">建築</span>
+    </div>
+    <span>に</span>
+    <span>も</span>
+    <div class="word" tabindex="0">
+        <span class="front">きぐ</span>
+        <span class="back">器具</span>
+    </div>
+    <span>に</span>
+    <span>も</span>
+    <div class="word" tabindex="0">
+        <span class="front">ひょうげん</span>
+        <span class="back">表現</span>
+    </div>
+    <span>されて</span>
+    <span>いる。</span>
+    <div class="word" tabindex="0">
+        <span class="front">こうたいじんぐう</span>
+        <span class="back">皇大神宮</span>
+    </div>
+    <span>の</span>
+    <div class="word" tabindex="0">
+        <span class="front">けんちく</span>
+        <span class="back">建築</span>
+    </div>
+    <span>など</span>
+    <span>は</span>
+    <span>その</span>
+    <div class="word" tabindex="0">
+        <span class="front">すい</span>
+        <span class="back">粋</span>
+    </div>
+    <span>で</span>
+    <span>ある。</span>
+    <div class="word" tabindex="0">
+        <span class="front">きぐ</span>
+        <span class="back">器具</span>
+    </div>
+    <span>に</span>
+    <span>も</span>
+    <span>それ</span>
+    <span>が</span>
+    <span>よく</span>
+    <div class="word" tabindex="0">
+        <span class="front">あらわれて</span>
+        <span class="back">現れて</span>
+    </div>
+    <span>いる。</span>
+    <div class="word" tabindex="0">
+        <span class="front">しゃみせん</span>
+        <span class="back">三味線</span>
+    </div>
+    <span>の</span>
+    <span>ごとき</span>
+    <div class="word" tabindex="0">
+        <span class="front">がっき</span>
+        <span class="back">楽器</span>
+    </div>
+    <span>も</span>
+    <span>この</span>
+    <div class="word" tabindex="0">
+        <span class="front">せいじょう</span>
+        <span class="back">性情</span>
+    </div>
+    <span>と</span>
+    <div class="word" tabindex="0">
+        <span class="front">しゅみ</span>
+        <span class="back">趣味</span>
+    </div>
+    <span>に</span>
+    <div class="word" tabindex="0">
+        <span class="front">あって</span>
+        <span class="back">合って</span>
+    </div>
+    <span>いる。</span>
+</div>
+<div class="paragraph">
+    <div class="word" tabindex="0">
+        <span class="front">たんじゅん</span>
+        <span class="back">単純</span>
+    </div>
+    <span>な</span>
+    <span>もの</span>
+    <span>や</span>
+    <div class="word" tabindex="0">
+        <span class="front">たんじゅん</span>
+        <span class="back">単純</span>
+    </div>
+    <span>な</span>
+    <span>もの</span>
+    <span>の</span>
+    <div class="word" tabindex="0">
+        <span class="front">くみ</span>
+        <span class="back">組み</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">あわせ</span>
+        <span class="back">合わせ</span>
+    </div>
+    <span>に</span>
+    <div class="word" tabindex="0">
+        <span class="front">くふう</span>
+        <span class="back">工夫</span>
+    </div>
+    <span>を</span>
+    <span>こらす</span>
+    <span>と</span>
+    <span>いう</span>
+    <div class="word" tabindex="0">
+        <span class="front">しゅみ</span>
+        <span class="back">趣味</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">せいじょう</span>
+        <span class="back">性情</span>
+    </div>
+    <span>が</span>
+    <div class="word" tabindex="0">
+        <span class="front">カナモジ</span>
+        <span class="back">カナ文字</span>
+    </div>
+    <span>を</span>
+    <div class="word" tabindex="0">
+        <span class="front">せいさく</span>
+        <span class="back">製作</span>
+    </div>
+    <span>した</span>
+    <span>と</span>
+    <div class="word" tabindex="0">
+        <span class="front">みる</span>
+        <span class="back">見る</span>
+    </div>
+    <span>こと</span>
+    <span>は</span>
+    <div class="word" tabindex="0">
+        <span class="front">ふとう</span>
+        <span class="back">不当</span>
+    </div>
+    <span>で</span>
+    <span>ある</span>
+    <span>まい。</span>
+    <div class="word" tabindex="0">
+        <span class="front">じかく</span>
+        <span class="back">字画</span>
+    </div>
+    <span>の</span>
+    <div class="word" tabindex="0">
+        <span class="front">おおい</span>
+        <span class="back">多い</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">ふくざつ</span>
+        <span class="back">複雑</span>
+    </div>
+    <span>な</span>
+    <div class="word" tabindex="0">
+        <span class="front">かんじ</span>
+        <span class="back">漢字</span>
+    </div>
+    <span>を</span>
+    <div class="word" tabindex="0">
+        <span class="front">たくみ</span>
+        <span class="back">巧み</span>
+    </div>
+    <span>に</span>
+    <div class="word" tabindex="0">
+        <span class="front">かんたん</span>
+        <span class="back">簡単</span>
+    </div>
+    <span>な</span>
+    <div class="word" tabindex="0">
+        <span class="front">せん</span>
+        <span class="back">線</span>
+    </div>
+    <span>に</span>
+    <div class="word" tabindex="0">
+        <span class="front">くふう</span>
+        <span class="back">工夫</span>
+    </div>
+    <span>して</span>
+    <div class="word" tabindex="0">
+        <span class="front">つくり</span>
+        <span class="back">作り</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">なおした</span>
+        <span class="back">直した</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">てん</span>
+        <span class="back">点</span>
+    </div>
+    <span>など</span>
+    <span>は、</span>
+    <div class="word" tabindex="0">
+        <span class="front">たしか</span>
+        <span class="back">確か</span>
+    </div>
+    <span>に</span>
+    <div class="word" tabindex="0">
+        <span class="front">にっぽんじん</span>
+        <span class="back">日本人</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">とくゆう</span>
+        <span class="back">特有</span>
+    </div>
+    <span>の</span>
+    <div class="word" tabindex="0">
+        <span class="front">せいじょう</span>
+        <span class="back">性情</span>
+    </div>
+    <span>から</span>
+    <div class="word" tabindex="0">
+        <span class="front">きて</span>
+        <span class="back">来て</span>
+    </div>
+    <span>いる</span>
+    <span>よう</span>
+    <span>で</span>
+    <span>ある。</span>
+    <div class="word" tabindex="0">
+        <span class="front">がいこく</span>
+        <span class="back">外国</span>
+    </div>
+    <span>の</span>
+    <span>もの</span>
+    <span>は</span>
+    <span>その</span>
+    <span>まま</span>
+    <div class="word" tabindex="0">
+        <span class="front">とらないで、</span>
+        <span class="back">取らないで、</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">にっぽん-か</span>
+        <span class="back">日本化</span>
+    </div>
+    <span>して</span>
+    <span>しまう</span>
+    <span>と</span>
+    <span>いう</span>
+    <div class="word" tabindex="0">
+        <span class="front">こくみん-てき</span>
+        <span class="back">国民的</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">のうりょく</span>
+        <span class="back">能力</span>
+    </div>
+    <span>が、</span>
+    <span>ここ</span>
+    <span>に</span>
+    <span>も</span>
+    <div class="word" tabindex="0">
+        <span class="front">はっき</span>
+        <span class="back">発揮</span>
+    </div>
+    <span>されて</span>
+    <span>いる。</span>
+</div>
+<div class="paragraph">
+    <span>かく</span>
+    <span>の</span>
+    <span>ごとき</span>
+    <div class="word" tabindex="0">
+        <span class="front">カナモジ</span>
+        <span class="back">カナ文字</span>
+    </div>
+    <span>を</span>
+    <div class="word" tabindex="0">
+        <span class="front">よう</span>
+        <span class="back">要</span>
+    </div>
+    <span>する</span>
+    <div class="word" tabindex="0">
+        <span class="front">にっぽん</span>
+        <span class="back">日本</span>
+    </div>
+    <span>が、</span>
+    <div class="word" tabindex="0">
+        <span class="front">めいじ</span>
+        <span class="back">明治</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">たいしょう</span>
+        <span class="back">大正</span>
+    </div>
+    <span>の</span>
+    <div class="word" tabindex="0">
+        <span class="front">じだい</span>
+        <span class="back">時代</span>
+    </div>
+    <span>に</span>
+    <span>おいて、</span>
+    <div class="word" tabindex="0">
+        <span class="front">せいよう</span>
+        <span class="back">西洋</span>
+    </div>
+    <span>の</span>
+    <div class="word" tabindex="0">
+        <span class="front">ぶんぶつ</span>
+        <span class="back">文物</span>
+    </div>
+    <span>に</span>
+    <div class="word" tabindex="0">
+        <span class="front">せっきん</span>
+        <span class="back">接近</span>
+    </div>
+    <span>する</span>
+    <span>に</span>
+    <div class="word" tabindex="0">
+        <span class="front">およんで、</span>
+        <span class="back">及んで、</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">おうぶん</span>
+        <span class="back">欧文</span>
+    </div>
+    <span>の</span>
+    <div class="word" tabindex="0">
+        <span class="front">べんり</span>
+        <span class="back">便利</span>
+    </div>
+    <span>な</span>
+    <div class="word" tabindex="0">
+        <span class="front">よこがき</span>
+        <span class="back">横書き</span>
+    </div>
+    <span>の</span>
+    <div class="word" tabindex="0">
+        <span class="front">けいしき</span>
+        <span class="back">形式</span>
+    </div>
+    <span>を</span>
+    <div class="word" tabindex="0">
+        <span class="front">とりいり、</span>
+        <span class="back">取り入り、</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">おうぶん</span>
+        <span class="back">欧文</span>
+    </div>
+    <span>の</span>
+    <div class="word" tabindex="0">
+        <span class="front">きごう</span>
+        <span class="back">記号</span>
+    </div>
+    <span>など</span>
+    <span>を</span>
+    <div class="word" tabindex="0">
+        <span class="front">さいよう</span>
+        <span class="back">採用</span>
+    </div>
+    <span>しよう</span>
+    <span>と</span>
+    <span>する</span>
+    <div class="word" tabindex="0">
+        <span class="front">うんどう</span>
+        <span class="back">運動</span>
+    </div>
+    <span>が</span>
+    <div class="word" tabindex="0">
+        <span class="front">おこった</span>
+        <span class="back">起こった</span>
+    </div>
+    <span>の</span>
+    <span>は、</span>
+    <span>やはり</span>
+    <div class="word" tabindex="0">
+        <span class="front">にっぽん</span>
+        <span class="back">日本</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">みんぞく</span>
+        <span class="back">民族</span>
+    </div>
+    <span>が</span>
+    <div class="word" tabindex="0">
+        <span class="front">せいよう</span>
+        <span class="back">西洋</span>
+    </div>
+    <span>の</span>
+    <div class="word" tabindex="0">
+        <span class="front">ぶんぶつ</span>
+        <span class="back">文物</span>
+    </div>
+    <span>を</span>
+    <div class="word" tabindex="0">
+        <span class="front">とりいれて</span>
+        <span class="back">取り入れて</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">にっぽん-か</span>
+        <span class="back">日本化</span>
+    </div>
+    <span>しよう</span>
+    <span>と</span>
+    <span>する</span>
+    <div class="word" tabindex="0">
+        <span class="front">げんしょう</span>
+        <span class="back">現象</span>
+    </div>
+    <span>で</span>
+    <span>ある。</span>
+    <div class="word" tabindex="0">
+        <span class="front">がいこく</span>
+        <span class="back">外国</span>
+    </div>
+    <span>の</span>
+    <div class="word" tabindex="0">
+        <span class="front">ぶんぶつ</span>
+        <span class="back">文物</span>
+    </div>
+    <span>を</span>
+    <span>その</span>
+    <span>まま</span>
+    <div class="word" tabindex="0">
+        <span class="front">とらないで</span>
+        <span class="back">取らないで</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">しょうか</span>
+        <span class="back">消化</span>
+    </div>
+    <span>しよう</span>
+    <span>と</span>
+    <span>する</span>
+    <div class="word" tabindex="0">
+        <span class="front">こくみん</span>
+        <span class="back">国民</span>
+    </div>
+    <span>の</span>
+    <div class="word" tabindex="0">
+        <span class="front">こころ</span>
+        <span class="back">心</span>
+    </div>
+    <span>は、</span>
+    <span>ここ</span>
+    <span>に</span>
+    <span>も</span>
+    <div class="word" tabindex="0">
+        <span class="front">あらわれて</span>
+        <span class="back">現れて</span>
+    </div>
+    <span>いる</span>
+    <span>の</span>
+    <span>で</span>
+    <span>は</span>
+    <span>ある</span>
+    <span>まい</span>
+    <span>か。</span>
+</div>
+<div class="paragraph">
+    <span>カナ</span>
+    <span>が</span>
+    <div class="word" tabindex="0">
+        <span class="front">にっぽんご</span>
+        <span class="back">日本語</span>
+    </div>
+    <span>を</span>
+    <div class="word" tabindex="0">
+        <span class="front">あらわす</span>
+        <span class="back">表す</span>
+    </div>
+    <span>に</span>
+    <div class="word" tabindex="0">
+        <span class="front">つごう</span>
+        <span class="back">都合</span>
+    </div>
+    <span>の</span>
+    <span>よい</span>
+    <span>こと</span>
+    <span>は、</span>
+    <div class="word" tabindex="0">
+        <span class="front">しんり-がく</span>
+        <span class="back">心理学</span>
+    </div>
+    <span>の</span>
+    <div class="word" tabindex="0">
+        <span class="front">うえ</span>
+        <span class="back">上</span>
+    </div>
+    <span>から</span>
+    <div class="word" tabindex="0">
+        <span class="front">あきらか</span>
+        <span class="back">明らか</span>
+    </div>
+    <span>に</span>
+    <div class="word" tabindex="0">
+        <span class="front">しょうめい</span>
+        <span class="back">証明</span>
+    </div>
+    <span>されて</span>
+    <span>いる</span>
+    <span>が、</span>
+    <div class="word" tabindex="0">
+        <span class="front">いま</span>
+        <span class="back">今</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">かりに</span>
+        <span class="back">仮に</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">しんり-がく</span>
+        <span class="back">心理学</span>
+    </div>
+    <span>の</span>
+    <div class="word" tabindex="0">
+        <span class="front">じっけん-じょう</span>
+        <span class="back">実験場</span>
+    </div>
+    <span>から</span>
+    <div class="word" tabindex="0">
+        <span class="front">カナモジ</span>
+        <span class="back">カナ文字</span>
+    </div>
+    <span>が</span>
+    <div class="word" tabindex="0">
+        <span class="front">ふ-てきとう</span>
+        <span class="back">不適当</span>
+    </div>
+    <span>で</span>
+    <span>ある</span>
+    <span>と</span>
+    <span>する</span>
+    <span>も、</span>
+    <div class="word" tabindex="0">
+        <span class="front">しんり-がく</span>
+        <span class="back">心理学</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">いじょう</span>
+        <span class="back">以上</span>
+    </div>
+    <span>の</span>
+    <div class="word" tabindex="0">
+        <span class="front">ちょう-しんり-がく</span>
+        <span class="back">超心理学</span>
+    </div>
+    <span>に</span>
+    <span>おいて</span>
+    <span>は、</span>
+    <div class="word" tabindex="0">
+        <span class="front">カナモジ</span>
+        <span class="back">カナ文字</span>
+    </div>
+    <span>が</span>
+    <div class="word" tabindex="0">
+        <span class="front">にっぽんじん</span>
+        <span class="back">日本人</span>
+    </div>
+    <span>に</span>
+    <div class="word" tabindex="0">
+        <span class="front">もっとも</span>
+        <span class="back">最も</span>
+    </div>
+    <div class="word" tabindex="0">
+        <span class="front">てきとう</span>
+        <span class="back">適当</span>
+    </div>
+    <span>して</span>
+    <span>いる</span>
+    <span>こと</span>
+    <span>を</span>
+    <div class="word" tabindex="0">
+        <span class="front">みとめる</span>
+        <span class="back">認める</span>
+    </div>
+    <span>で</span>
+    <span>あろう。</span>
+</div>
+<div class="paragraph">
+    <span>（</span>
+    <div class="word" tabindex="0">
+        <span class="front">たいしょう</span>
+        <span class="back">大正</span>
+    </div>
+    <span>11.8.20）</span>
+</div>
+
+<h2 id="開発者へ">開発者へ</h2>
+<p><a href="https://github.com/uncomputable/nayami/tree/master/layouts/shortcodes">ベースのHTML・CSSがGitHubにある</a>。</p>
+<p>まずは原文を下のような形に書き起こしておいた。
+漢字のあるところにはフリガナをつけて、分かち書きは自分で決めた。</p>
+<pre tabindex="0"><code>我[わ]が 国民[こくみん] は 外国[がいこく] の 文物[ぶんぶつ] を 取[と]り入[い]れて、 これ を 丸呑[まるの]み に する こと は ない。
+</code></pre><p>そして、この文章を下のようなHTMLに書き換えるプログラムを使った。
+HTMLはくどいから、自動的な書き換えは効率よい。
+プログラムは自作でまだ未公開だ。</p>
+<pre tabindex="0"><code>&lt;div class=&#34;word&#34; tabindex=&#34;0&#34;&gt;
+    &lt;span class=&#34;front&#34;&gt;わが&lt;/span&gt;
+    &lt;span class=&#34;back&#34;&gt;我が&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&#34;word&#34; tabindex=&#34;0&#34;&gt;
+    &lt;span class=&#34;front&#34;&gt;こくみん&lt;/span&gt;
+    &lt;span class=&#34;back&#34;&gt;国民&lt;/span&gt;
+&lt;/div&gt;
+&lt;span&gt;は&lt;/span&gt;
+&lt;div class=&#34;word&#34; tabindex=&#34;0&#34;&gt;
+    &lt;span class=&#34;front&#34;&gt;がいこく&lt;/span&gt;
+    &lt;span class=&#34;back&#34;&gt;外国&lt;/span&gt;
+&lt;/div&gt;
+&lt;span&gt;の&lt;/span&gt;
+&lt;div class=&#34;word&#34; tabindex=&#34;0&#34;&gt;
+    &lt;span class=&#34;front&#34;&gt;ぶんぶつ&lt;/span&gt;
+    &lt;span class=&#34;back&#34;&gt;文物&lt;/span&gt;
+&lt;/div&gt;
+&lt;span&gt;を&lt;/span&gt;
+&lt;div class=&#34;word&#34; tabindex=&#34;0&#34;&gt;
+    &lt;span class=&#34;front&#34;&gt;とりいれて、&lt;/span&gt;
+    &lt;span class=&#34;back&#34;&gt;取り入れて、&lt;/span&gt;
+&lt;/div&gt;
+&lt;span&gt;これ&lt;/span&gt;
+&lt;span&gt;を&lt;/span&gt;
+&lt;div class=&#34;word&#34; tabindex=&#34;0&#34;&gt;
+    &lt;span class=&#34;front&#34;&gt;まるのみ&lt;/span&gt;
+    &lt;span class=&#34;back&#34;&gt;丸呑み&lt;/span&gt;
+&lt;/div&gt;
+&lt;span&gt;に&lt;/span&gt;
+&lt;span&gt;する&lt;/span&gt;
+&lt;span&gt;こと&lt;/span&gt;
+&lt;span&gt;は&lt;/span&gt;
+&lt;span&gt;ない。&lt;/span&gt;
+</code></pre><h2 id="協力の呼びかけ">協力の呼びかけ</h2>
+<p>原文が漢字で書かれているため、読み方を考える必要があった。
+日本語は読みが曖昧なことがある。
+例えば、「数百年の後」という表現は「〜ののち」、「〜のあと」、もしくは「〜のご」と読むか、分からないことがある。
+皆様の知恵にお任せたい。
+もし誤った読み方や誤字があれば、<a href="/contact">ぜひご指摘ください</a>。</p>
+
+		</section>
+
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="https://nayami.org//tags/%E3%82%AB%E3%83%8A">カナ</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+		</article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="https://github.com/uncomputable/" rel="me" title="GitHub"><i data-feather="github"></i></a>
+    <a class="border"></a><a class="soc" href="https://nayami.org/index.xml" rel="me" title="RSS"><i data-feather="rss"></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    
+      uncomputable@2025
+    
+    <a href="https://github.com/athul/archie">Archieテーマ</a> | <a href="https://gohugo.io">Hugo</a>でつくった
+  </div>
+</footer><script>
+  feather.replace()
+</script></div>
+    </body>
+</html>
