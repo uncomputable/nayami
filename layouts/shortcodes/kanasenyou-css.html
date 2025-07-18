@@ -1,0 +1,37 @@
+<!-- Inline Style -->
+<style>
+    .paragraph {
+        /* margin: 10px; */
+        /* font-size: 24px; */
+    }
+
+    .word {
+      /* Use an inline grid with one cell */
+      display: inline-grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      /* margin: 2px; */
+    }
+
+    /* Place both spans in the same grid cell */
+    .front,
+    .back {
+      grid-area: 1 / 1;
+      text-align: center;
+    }
+
+    /* Hide the back by default but keep it in layout */
+    .back {
+      visibility: hidden;
+    }
+
+    /* Toggle visibility on hover/focus */
+    .word:hover .front,
+    .word:focus .front {
+      visibility: hidden;
+    }
+    .word:hover .back,
+    .word:focus .back {
+      visibility: visible;
+    }
+</style>
